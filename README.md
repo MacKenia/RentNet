@@ -13,7 +13,7 @@
 
 ### 生成授权文件
 
-点击[release](https://github.com/MicroCBer/BetterNCM/releases)下载可执行程序
+点击[release](https://github.com/Mackenia/RentNet/releases)下载可执行程序
 
 输入截止日期（YYYY-MM-DD)
 
@@ -25,7 +25,7 @@
 
 ### 使用授权文件登陆
 
-点击[release](https://github.com/MicroCBer/BetterNCM/releases)下载可执行程序
+点击[release](https://github.com/Mackenia/RentNet/releases)下载可执行程序
 
 将授权文件和程序放一起
 
