@@ -3,6 +3,7 @@ import time
 import rsa
 from CQNU_helper import LoginIntoCqnu
 import json
+import sys
 
 private_key = """
 为保证授权文件不被破解，私钥不公开
@@ -36,7 +37,7 @@ if __name__ == "__main__":
     except:
         print("X 加载失败 [error_code: 00]")
         print("请保证授权文件在本程序所在目录")
-        exit()
+        sys.exit()
 
     de_term = rsa.decrypt(crypto=term, priv_key=pri_key)
 
@@ -53,7 +54,7 @@ if __name__ == "__main__":
 
     if expire_time < today:
         print("X 已超出授权时间，请联系出租者重新生成授权文件 [error_code: 10]")
-        exit()
+        sys.exit()
 
     print("✓ 授权检测完成，正在登陆...")
 
